@@ -18,7 +18,7 @@
 
 ## 2. 架构与流程图
 
-```
+```mermaid
 flowchart LR
     U([用户/需求]) --> S[(共享状态 SharedState)]
     S --> R[需求Agent]
