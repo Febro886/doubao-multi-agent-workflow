@@ -1,1 +1,4 @@
-requests>=2.31.0
+# 主程序（main.py）仅使用 Python 标准库，无需安装任何第三方依赖即可运行。
+# 以下两个包仅供 test_ark.py 连通性自检使用：
+openai>=1.0
+python-dotenv>=1.0.0
